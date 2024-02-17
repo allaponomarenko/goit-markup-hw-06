@@ -283,9 +283,9 @@ body {
 
   .strategy-list {
     display: flex; 
-    flex-direction: column; 
+   flex-wrap: wrap; 
     /*gap: 24px;*/
-    gap: 72px;
+    gap: 62px;
     
   }
 
@@ -1141,8 +1141,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .strategy-list {
-    column-gap: 24px;
-    row-gap: 72px;
+    gap: 24px;
+    
   }
   
   
@@ -1171,6 +1171,20 @@ body {
 
    @media screen and (min-width: 768px) {
    
+    .imagines {
+      column-gap: 24px;
+    }
+   
+   
+    .imagines-list-a {
+    width: calc((100% - 24px) / 2);
+   }
+
+   
+
+   .personal {
+    margin-top: 32px;
+   }
   
     
   }
@@ -1192,7 +1206,14 @@ body {
 
    @media screen and (min-width: 768px) {
     
-  
+  .container-img-block {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .img-block {
+    width: calc((100% - 24px) / 2);
+  }
     
   }
   
