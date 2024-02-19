@@ -549,7 +549,7 @@ body {
     background-color: #2E2F42; 
     padding: 100px 0;
     width: 320px;
-    height: 664px;
+    /*height: 664px;*/
     top: 6552px;
   
     
@@ -558,7 +558,8 @@ body {
 
 
   .foot-logo-p {
-    margin-right: 120px;
+    /*margin-right: 120px;*/
+    
   }
   
 
@@ -570,8 +571,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
-    margin-bottom: 16px;
-    display: inline-block;
+    /*margin-bottom: 16px;*/
+    margin-left: 86px;
+    margin-bottom: 17px;
+    /*display: inline-block;*/
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
@@ -593,7 +597,7 @@ body {
 
   .foot {
     display: flex;
-    /*align-items: baseline;*/
+    flex-direction: column;
     
     
 
@@ -611,6 +615,8 @@ body {
     text-align: left;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-left: 90px;
+    margin-top: 72px;
   }
 
 
@@ -658,7 +664,7 @@ body {
 
 
   .foot-form {
-    margin-left: 80px;
+    /*margin-left: 80px;*/
   }
 
 
@@ -669,13 +675,17 @@ body {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #FFFFFF;
-   margin-bottom: 16px;;
+   margin-bottom: 16px;
+   margin-left: 100px;
+   margin-top: 72px;
   }
 
 
   .form {
-    gap: 24px;
+    /*gap: 24px;*/
     display: flex;
+    flex-direction: column;
+   
   }
   
   
@@ -691,6 +701,8 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     padding-left: 16px;
+    margin-left: 14px;
+    margin-bottom: 24px;
 
   }
 
@@ -714,6 +726,7 @@ body {
     height: 40px;
     min-width: 165px;
     display: inline-flex;
+    margin: auto 61px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1261,7 +1274,26 @@ body {
 
 
    @media screen and (min-width: 768px) {
-    
+    .foot-contant {
+      width: 768px;
+      padding: 90px;
+    }
+
+    .foot {
+      height: 456px;
+      display: inline-flex;
+     
+    }
+
+    .social-footer {
+      margin-left: 24px;
+    }
+
+
+    .social-footer-text {
+      margin-top: 0;
+      margin-left: 0;
+    }
   
     
   }
@@ -1269,9 +1301,12 @@ body {
   
   
   @media screen and (min-width: 1158px) {
-    
+    .foot {
+      display: flex;
+      align-items: baseline;
     
   }
+ }
 
 
 
