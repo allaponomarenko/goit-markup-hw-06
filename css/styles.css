@@ -42,17 +42,13 @@ body {
 
 
   section {
-    /*padding-top: 120px;
-    padding-bottom: 120px;*/
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
 
    .container { 
-    /*max-width: 1158px; */
     width: 320px;
-    /*padding: 0 15px;*/
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -184,14 +180,12 @@ body {
 
      .hero-content {
       background-color: #2E2F42;
-      /*padding: 188px 0;*/
       margin: 0 auto;
-      /*max-width: 1440px;*/
       max-width: 320px;
       background-repeat: no-repeat;
       background-position: 50% 50%;
       background-size: cover;
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.mob-min.jpg);
       
       }
     
@@ -200,17 +194,12 @@ body {
       color: #FFFFFF;
       text-align: center;
       font-family: Roboto;
-      /*font-size: 56px;*/
       font-size: 36px;
       font-weight: 700;
       letter-spacing: 0.02em;
       background-color: transparent;
       line-height: 1.07;
-      /*margin: 188px 48px;
-      margin: 0 auto;
-      margin-bottom: 48px;*/
       margin: 0 36px 75px 36px;
-      /*max-width: 496px;*/
          
   }
    
@@ -257,13 +246,8 @@ body {
 
   
   .section-strategy {
-    background-color: #FFFFFF;
-    /*padding-top: 120px;  
-    padding-bottom: 120px;*/
-    
+    background-color: #FFFFFF; 
     margin: 0 auto;
-    
-
   }
 
 
@@ -284,21 +268,16 @@ body {
   .strategy-list {
     display: flex; 
    flex-wrap: wrap; 
-    /*gap: 24px;*/
-    gap: 62px;
-    
+    gap: 62px;  
   }
 
 
   .strategy-list-li { 
-    /*width: calc((100% - 72px) / 4); */
     width: 100%;
-   
   }
 
 
   .strategy-icon {
-    /*display: flex;*/
     display: none;
     justify-content: center;
     align-items: center;
@@ -311,8 +290,7 @@ body {
 
 
   .icon {
-    fill: #4D5AE5; 
-    
+    fill: #4D5AE5;
   }
  
   
@@ -331,11 +309,6 @@ body {
   h3 {
     color: #2E2F42;
     font-family: Roboto;
-   /* font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.2;*/
-    
   }
 
 
@@ -377,9 +350,7 @@ body {
   .imagines {
     background-color: #F4F4FD;
     display: flex;
-    /*flex-direction: column;*/
     flex-wrap: wrap;
-    /*gap: 24px;*/
     row-gap: 72px;
     margin: 0 12px;
   }
@@ -480,11 +451,6 @@ body {
     background-color: #F4F4FD;
   }
   
-
-  .portfolio {
-   /* padding-top: 120px; 
-    padding-bottom: 120px;*/
-  }
   
 
   .title-portfolio {
@@ -504,7 +470,6 @@ body {
   .container-img-block{
     display: flex;
     flex-wrap: wrap;
-    /*column-gap: 24px;*/
     row-gap: 48px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -521,7 +486,6 @@ body {
 
 
   .img-block {
-    /*width: calc((100% - 48px) / 3); */
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -1084,12 +1048,16 @@ body {
 
   @media screen and (min-width: 1158px) {
     .container {
-      max-width: 1158px;
-      padding-left: 15px;
-      padding-right: 15px;
+      width: 1158px;
+      padding: 0 15px;
     }
+
+    section {
+      padding-top: 120px;
+      padding-bottom: 120px;
     
   }
+}
 
   
 
@@ -1097,7 +1065,9 @@ body {
 
   @media screen and (min-width: 768px) {
     
-  
+    .hed-nav {
+      height: 56px;
+    }
     
   }
   
@@ -1121,6 +1091,7 @@ body {
       padding: 112px 0;
       max-width: 768px;
       margin: 0;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.tab-min.jpg);
     }
 
     .hero-title {
@@ -1134,7 +1105,19 @@ body {
   
   
   @media screen and (min-width: 1158px) {
-    
+    .hero-content {
+      padding: 188px 0;
+      max-width: 1440px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+    }
+
+    .hero-title {
+      font-size: 56px;
+      margin: 188px 48px;
+      margin: 0 auto;
+      margin-bottom: 48px;
+      max-width: 496px;
+    }
     
   }
 
@@ -1164,7 +1147,28 @@ body {
 
 
 @media screen and (min-width: 1158px) {
-  
+  .section-strategy {
+    padding-top: 120px;  
+    padding-bottom: 120px;
+  }
+
+  .strategy-list {
+    gap: 24px;
+  }
+
+  .strategy-list-li { 
+    width: calc((100% - 72px) / 4);
+  }
+    .strategy-icon {
+      display: flex;
+      }
+
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+      }
   
 }
 
@@ -1179,11 +1183,12 @@ body {
    
     .imagines {
       column-gap: 24px;
+      
     }
    
    
     .imagines-list-a {
-    width: calc((100% - 24px) / 2);
+    
    }
 
    
@@ -1198,6 +1203,12 @@ body {
   
   
   @media screen and (min-width: 1158px) {
+    .imagines {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 24px;
+    }
+
     
     
   }
@@ -1226,7 +1237,18 @@ body {
   
   
   @media screen and (min-width: 1158px) {
-    
+    .portfolio {
+       padding-top: 120px; 
+       padding-bottom: 120px;
+     }
+
+     .container-img-block {
+      column-gap: 24px;
+     }
+
+     .img-block {
+      width: calc((100% - 48px) / 3);
+     }
     
   }
 
