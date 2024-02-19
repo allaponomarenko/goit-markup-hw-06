@@ -665,6 +665,7 @@ body {
 
   .foot-form {
     /*margin-left: 80px;*/
+    margin-top: 72px;
   }
 
 
@@ -677,7 +678,7 @@ body {
    color: #FFFFFF;
    margin-bottom: 16px;
    margin-left: 100px;
-   margin-top: 72px;
+   
   }
 
 
@@ -1274,25 +1275,61 @@ body {
 
 
    @media screen and (min-width: 768px) {
+    
     .foot-contant {
       width: 768px;
-      padding: 90px;
+      padding: 90px 0;
+      
     }
 
     .foot {
-      height: 456px;
-      display: inline-flex;
-     
+      
+      width: 584px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+     justify-content: left;
+     margin-left: 92px;
+    }
+
+    .logo-footer {
+      margin-left: 0;
+    }
+
+    .footer-p {
+      margin-bottom: 72px;
     }
 
     .social-footer {
       margin-left: 24px;
     }
 
+    .foot-form {
+      margin-top: 0;
+    }
+
 
     .social-footer-text {
       margin-top: 0;
       margin-left: 0;
+    }
+
+    .foot-text-form {
+      margin-left: 0;
+      
+    }
+
+    .form {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .form-input {
+      margin-left: 0;
+    }
+
+    .foot-button {
+      margin: 0 0 24px 24px;
     }
   
     
