@@ -18,7 +18,7 @@
     </style>    
   </head>
   <body>    
-    <!--header
+    <!--header-->
     <header class="hed-nav">
       <div class="head-container container">
       <nav class="head-contant">
@@ -36,7 +36,7 @@
         </ul>
       </address>
       </div>
-    </header>-->
+    </header>
     <main>
     <!--seccion 1-->
       <section class="hero-content">    
@@ -115,7 +115,10 @@
         <h2 class="our-team">Our Team</h2>
         <ul class="imagines">
           <li class="imagines-list-a">
-            <img src="./images/mark_guerrero.jpg" alt="Mark Guerrero" width="264" height="260"/>
+            <img 
+            srcset="./images/mark-guerrero-mob-min.jpg 1x, 
+            ./images/mark-guerrero-2-min.jpg 2x" 
+            src="./images/mark_guerrero.jpg" alt="Mark Guerrero" width="264" height="260"/>
             <div class="personal">
             <h3 class="personal-title">Mark Guerrero</h3>
             <p class="main-tres-p">Product Designer</p>           
@@ -152,7 +155,10 @@
           </div>          
           </li>
           <li class="imagines-list-a">
-            <img src="./images/tom_ford.jpg" alt="Tom Ford" width="264" height="260"/>
+            <img
+            srcset="./images/tom-ford-mob-min.jpg 1x, 
+            ./images/tom-ford-mob-2-min.jpg 2x"
+            src="./images/tom_ford.jpg" alt="Tom Ford" width="264" height="260"/>
             <div class="personal">
             <h3 class="personal-title">Tom Ford</h3>
             <p class="main-tres-p">Frontend Developer</p>         
@@ -189,7 +195,10 @@
           </div>
           </li>
           <li class="imagines-list-a">
-            <img src="./images/gamila_garcia.jpg" alt="Camila Garcia" width="264" height="260"/>
+            <img
+            srcset="./images/camila-garcia-mob-min.jpg 1x, 
+            ./images/camila-garcia-mob-2-min.jpg 2x" 
+            src="./images/gamila_garcia.jpg" alt="Camila Garcia" width="264" height="260"/>
             <div class="personal">
             <h3 class="personal-title">Camila Garcia</h3>
             <p class="main-tres-p">Marketing</p>          
@@ -226,7 +235,10 @@
           </div>
           </li>
           <li class="imagines-list-a">
-            <img src="./images/daniel_wilson.jpg" alt="Daniel Wilson" width="264" height="260"/>
+            <img
+            srcset="./images/daniel-wilson-mob-min.jpg 1x, 
+            ./images/daniel-wilson-mob-2-min.jpg 2x" 
+            src="./images/daniel_wilson.jpg" alt="Daniel Wilson" width="264" height="260"/>
             <div class="personal">
             <h3 class="personal-title">Daniel Wilson</h3>
             <p class="main-tres-p">UI Designer</p>         
@@ -272,7 +284,24 @@
         <ul class="container-img-block">          
           <li class="img-block">
             <div class="block-producto-over">
-             <img src="./images/banking_app.jpg" alt="Banking App" width="360" height="300"/>           
+              <picture>
+                <source 
+                media="(min-width: 1158px)" 
+                srcset="./images/banking_app.jpg 1x, 
+                ./images/banking-app-2-min.jpg 2x">
+
+                <source 
+                media="(min-width: 768px)" 
+                srcset="./images/banking-app-tab-min.jpg 1x, 
+                ./images/banking-app-tab-2-min.jpg 2x">
+
+                <source 
+                media="(max-width: 767px)" 
+                srcset="./images/banking-app-mob-min.jpg 1x, 
+                ./images/banking-app-mob-2-min.jpg 2x">
+                <img src="./images/banking-app-tab-min.jpg" alt="Banking App" width="720"/>
+              </picture>
+                        
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
              <div class="info-block">
@@ -281,8 +310,26 @@
             </div>            
             </li>           
             <li class="img-block"> 
-              <div class="block-producto-over">   
-             <img src="./images/cashless_payment.jpg" alt="Cashless Payment" width="360" height="300"/>
+              <div class="block-producto-over"> 
+                <picture>
+                  <source 
+                  media="(min-width: 1158px)" 
+                  srcset="./images/cashless_payment.jpg 1x, 
+                  ./images/cashless_payment.jpg 2x">
+  
+                  <source 
+                  media="(min-width: 768px)" 
+                  srcset="./images/cashless-payment-tab-min.jpg 1x, 
+                  ./images/cashless-payment-tab-2-min.jpg 2x">
+  
+                  <source 
+                  media="(max-width: 767px)" 
+                  srcset="./images/cashless-payment-mob-min.jpg 1x, 
+                  ./images/cashless-payment-mob-2-min.jpg 2x">
+
+                  <img src="./images/cashless_payment.jpg" alt="Banking App" width="720"/>
+                </picture>  
+             
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>          
              <div class="info-block">
@@ -292,7 +339,26 @@
             </li>           
             <li class="img-block">  
               <div class="block-producto-over">  
-             <img src="./images/meditation_app.jpg" alt="Meditation App" width="360" height="300"/>
+                <picture>
+                  <source 
+                  media="(min-width: 1158px)" 
+                  srcset="./images/meditation_app.jpg 1x, 
+                  ./images/meditation-app-2-min.jpg 2x">
+  
+                  <source 
+                  media="(min-width: 768px)" 
+                  srcset="./images/meditation-app-tab-min.jpg 1x, 
+                  ./images/meditation-app-tab-2-min.jpg 2x">
+  
+                  <source 
+                  media="(max-width: 767px)" 
+                  srcset="./images/meditation-app-mob-min.jpg 1x, 
+                  ./images/meditation-app-mob-2-min.jpg 2x">
+
+                  <img src="./images/meditation_app.jpg" alt="Banking App" width="720"/>
+                </picture>  
+             
+             
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
              <div class="info-block">
@@ -301,8 +367,27 @@
             </div>
             </li>          
             <li class="img-block"> 
-              <div class="block-producto-over">  
-             <img src="./images/taxi_service.jpg" alt="Taxi Service" width="360" height="300"/>
+              <div class="block-producto-over"> 
+                <picture>
+                  <source 
+                  media="(min-width: 1158px)" 
+                  srcset="./images/taxi_service.jpg 1x, 
+                  ./images/taxi-service-2-min.jpg 2x">
+  
+                  <source 
+                  media="(min-width: 768px)" 
+                  srcset="./images/tax-service-tab-min.jpg 1x, 
+                  ./images/tax-service-tab-2-min.jpg 2x">
+  
+                  <source 
+                  media="(max-width: 767px)" 
+                  srcset="./images/taxi-service-mob-min.jpg 1x, 
+                  ./images/taxi-service-mob-2-min.jpg 2x">
+
+                  <img src="./images/taxi_service.jpg" alt="Banking App" width="720"/>
+                </picture>  
+              
+             
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
              <div class="info-block">
@@ -311,8 +396,27 @@
             </div>          
             </li>          
             <li class="img-block">  
-              <div class="block-producto-over"> 
-             <img src="./images/screen_illustrations.jpg" alt="Screen Illustrations" width="360" height="300"/>
+              <div class="block-producto-over">
+                <picture>
+                  <source 
+                  media="(min-width: 1158px)" 
+                  srcset="./images/screen_illustrations.jpg 1x, 
+                  ./images/screen-illustrations-2-min.jpg 2x">
+  
+                  <source 
+                  media="(min-width: 768px)" 
+                  srcset="./images/screen-illustrations-tab-min.jpg 1x, 
+                  ./images/screen-illustrations-tab-2-min.jpg 2x">
+  
+                  <source 
+                  media="(max-width: 767px)" 
+                  srcset="./images/screen-illustrations-mob-min.jpg 1x, 
+                  ./images/screen-illustrations-mob-2-min.jpg 2x">
+
+                  <img src="./images/screen_illustrations.jpg" alt="Banking App" width="720"/>
+                </picture>  
+               
+             
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
              <div class="info-block">
@@ -321,7 +425,26 @@
             </div>           
             </li>            
             <li class="img-block"> 
-              <div class="block-producto-over"> 
+              <div class="block-producto-over">
+                <picture>
+                  <source 
+                  media="(min-width: 1158px)" 
+                  srcset="./images/online_courses.jpg 1x, 
+                  ./images/online-courses-2-min.jpg 2x">
+  
+                  <source 
+                  media="(min-width: 768px)" 
+                  srcset="./images/online-courses-tab-min.jpg 1x, 
+                  ./images/online-courses-tab-2-min.jpg 2x">
+  
+                  <source 
+                  media="(max-width: 767px)" 
+                  srcset="./images/online-courses-mob-min.jpg 1x, 
+                  ./images/online-courses-mob-2-min.jpg 2x">
+
+                  <img src="./images/online_courses.jpg" alt="Banking App" width="720"/>
+                </picture>  
+                
              <img src="./images/online_courses.jpg" alt="Online Courses" width="360" height="300"/>
              <p class="producto-over">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
