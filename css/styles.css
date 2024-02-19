@@ -1197,7 +1197,7 @@ body {
    
     .imagines {
       column-gap: 24px;
-      margin: 0 92px;
+      margin-left: 96px;
     }
    
    
@@ -1221,6 +1221,7 @@ body {
       flex-direction: row;
       flex-wrap: nowrap;
       gap: 24px;
+      margin-left: 0;
     }
 
     
@@ -1339,10 +1340,25 @@ body {
   
   @media screen and (min-width: 1158px) {
     .foot {
+      width: 1158px;
       display: flex;
       align-items: baseline;
+      margin-left: 156px;
     
   }
+
+  .foot-contant {
+    width: 1440px;
+  }
+
+  .social-footer {
+    margin-left: 96px;
+  }
+
+  .foot-form {
+    margin-left: 80px;
+  }
+
  }
 
 
@@ -1362,6 +1378,7 @@ body {
     
     
     @media screen and (min-width: 1158px) {
+    
       
       
     }
