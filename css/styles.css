@@ -251,10 +251,6 @@ body {
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .hed-list-mob {
-      
-    }
-
     .contacts-mob {
       font-style: normal;
       margin-left: auto;
@@ -316,10 +312,6 @@ body {
     }
 
 
-    .hed-icon-burger-mob {
-
-    }
-
     .social-mob {
       display: flex;
       justify-content: center;
@@ -357,6 +349,71 @@ body {
     .icon-link-networks-mob:focus {
       background-color: #404bbf;
     }
+
+
+
+
+    /*menu-tablet*/
+
+
+    @media screen and (min-width: 768px) {
+
+      .head-container {
+        padding-top: 16px;
+      }
+
+
+      .hed-icon-burger {
+        display: none;
+      }
+
+      .contacts {
+        display: flex;
+      }
+
+      .contacts-hed {
+        display: flex;
+        margin-left: 120px;
+        gap: 40px;
+      }
+
+      .comtacts-list {
+        display: block;
+      }
+
+      .contacts-addres {
+        padding: 0;
+        color: #434455;
+        margin-bottom: 12px;
+        width: 118px;
+        left: 634px;
+        height: 14px;
+        top: 42px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.04em;
+        text-align: left;
+
+      }
+    
+      
+    }
+    
+    
+
+
+    /*menu-disktop*/
+
+
+    @media screen and (min-width: 1158px) {
+    
+      
+      
+    }
+
+
     
 
   
